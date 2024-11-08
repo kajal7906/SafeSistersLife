@@ -13,11 +13,6 @@ const Footer = () => {
           <ul>
             <li><a href="https://www.womensafety.gov.in" target="_blank" rel="noopener noreferrer">Women's Safety Resources</a></li>
           </ul>
-          <div className="footer-contact">
-  <p>Contact us at: <a href="mailto:support@safesisterslife.com">support@safesisterslife.com</a></p>
-  <p>Phone: +123 456 789</p>
-</div>
-
         </div>
 
         {/* Social Media Links */}

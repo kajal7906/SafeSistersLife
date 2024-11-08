@@ -49,11 +49,10 @@ nav {
   color: #dd21d6; /* Pink color */
   font-family: 'Garamond', serif;
   transition: color 0.3s ease;
-  font-weight: bold;
 }
 
 .nav-links a:hover {
-  color: #bf27a0; /* Slightly darker pink on hover */
+  color: #e43fc3; /* Slightly darker pink on hover */
 }
 
 /* Responsive adjustments */

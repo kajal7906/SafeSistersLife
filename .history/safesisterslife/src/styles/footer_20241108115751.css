@@ -1,0 +1,218 @@
+/* Footer.css */
+
+.footer {
+    background-color: #f2e4f0;
+    color: black;
+    padding: 30px 20px;
+    text-align: center;
+    border-top: 5px solid #F8A3EC; 
+    border-bottom: 5px solid #F8A3EC; 
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-text p {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .footer-links {
+    margin-bottom: 20px;
+  }
+  
+  .footer-link {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #d017c0; /* Hover effect on links */
+  }/* Footer.css */
+
+/* General Footer Styling */
+.footer {
+    background-color: #f2e4f0;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+  
+  .footer-logo-img {
+    width: 120px; /* Adjust size as needed */
+    height: auto;
+  }
+  
+  /* Styling the Links Section */
+  .footer-links {
+    margin-bottom: 30px;
+  }
+  
+  .footer-links h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #ffa500; /* Orange color for headings */
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin: 10px 0;
+  }
+  
+  .footer-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #ffa500;
+  }
+  
+  /* Styling the Social Media Section */
+  .social-media {
+    margin-top: 30px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #ffa500;
+  }
+  
+  .social-icon i {
+    margin-right: 8px;
+  }
+  
+  /* Styling the Footer Text */
+  .footer-text {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  
+  /* Corner Design: Adding decorative borders and patterns */
+  .footer::before,
+  .footer::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 50px;
+    height: 50px;
+    background-color: #ffa500;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  }
+  
+  .footer::before {
+    left: -10px;
+  }
+  
+  .footer::after {
+    right: -10px;
+    transform: rotate(180deg);
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .footer-content {
+      padding: 0 10px;
+    }
+  
+    .footer-links {
+      margin-bottom: 20px;
+    }
+  
+    .footer-links ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-link {
+      margin: 10px 0;
+    }
+  
+    .social-icons {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    color: #D761C7;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .social-icon:hover {
+    color: #ffa500; /* Hover effect on social media links */
+  }
+  
+  .social-icon i {
+    margin-right: 8px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-link {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .social-icons {
+      text-align: center;
+    }
+  
+    .social-icon {
+      display: inline-block;
+      margin: 10px;
+    }
+  }
+  

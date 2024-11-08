@@ -1,26 +1,20 @@
 import React from 'react';
-import "../styles/footer.css";
-import logo from '../images2/logo.jpg'; // Ensure you have the logo image in your assets folder
+import './Footer.css'; // Import the CSS file
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-
-        {/* Helpful Links */}
-        <div className="footer-links">
-          <h4>Helpful Links</h4>
-          <ul>
-            <li><a href="https://www.womensafety.gov.in" target="_blank" rel="noopener noreferrer">Women's Safety Resources</a></li>
-          </ul>
-          <div className="footer-contact">
-  <p>Contact us at: <a href="mailto:support@safesisterslife.com">support@safesisterslife.com</a></p>
-  <p>Phone: +123 456 789</p>
-</div>
-
+        <div className="footer-text">
+          <p>© 2024 SafeSistersLife. All rights reserved.</p>
         </div>
 
-        {/* Social Media Links */}
+        <div className="footer-links">
+          <a href="/about" className="footer-link">About Us</a>
+          <a href="/privacy-policy" className="footer-link">Privacy Policy</a>
+          <a href="/contact" className="footer-link">Contact</a>
+        </div>
+
         <div className="social-media">
           <p>Follow Us:</p>
           <div className="social-icons">
@@ -35,17 +29,11 @@ const Footer = () => {
             </a>
           </div>
         </div>
-
-        {/* Footer Text (Copyright) */}
-        <div className="footer-text">
-          <p>© 2024 SafeSistersLife. All rights reserved.</p>
-        </div>
       </div>
     </footer>
   );
 }
 
 export default Footer;
-
 
 
